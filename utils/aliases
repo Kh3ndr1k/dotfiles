@@ -4,7 +4,7 @@
 
 # go back directories
 alias ..='cd ../'
-alias ..='cd ../../'
+alias ...='cd ../../'
 
 # 'rm | cp | mv' commands
 alias rm='rm -vi'
