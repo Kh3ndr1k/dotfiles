@@ -1,0 +1,52 @@
+###
+# General
+###
+[general]
+import = ["theme.toml"]
+
+###
+# Window
+###
+[window]
+dimensions = { columns=119, lines=30 }
+padding = { x=3, y=6 }
+decorations = "None"
+opacity = 0.80
+blur = true
+
+###
+# Scrolling
+###
+[scrolling]
+history = 2000
+multiplier = 10
+
+###
+# Fonts
+###
+[font]
+normal = { family="SF Mono", style="Medium" }
+bold = { family="SF Mono", style="Heavy" }
+italic = { family="SF Mono", style="Medium Italic" }
+bold_italic = { family="SF Mono", style="Heavy Italic" }
+offset = { x=0, y=0 }
+glyph_offset = { x=0, y=0 }
+builtin_box_drawing = true
+
+size = 10.2
+
+###
+# Cursor
+###
+[cursor]
+style = { shape="Beam", blinking="on" }
+blink_interval = 900
+blink_timeout = 10
+thickness = 0.4
+
+###
+# Mouse
+###
+[mouse]
+hide_when_typing = true
+
